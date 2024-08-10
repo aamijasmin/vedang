@@ -23,11 +23,6 @@
   margin-left: 1rem;
 }
 
-.header_right a {
-  color: #fff9f8;
-  padding: 1rem;
-}
-
 h1, p {
   color: #fff9f8;
 }
@@ -48,5 +43,25 @@ img {
   font-size: 1.5rem;
   letter-spacing: 1.2px;
   line-height: 10px;
+}
+
+.header_right img {
+  width: 2.8rem;
+}
+
+.header_right a {
+  color: #fff9f8;
+  padding: 1rem;
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.header_right .helper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
 }
 

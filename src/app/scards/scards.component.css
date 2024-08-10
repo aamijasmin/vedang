@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 3rem;
 }
 
 .scard {
@@ -11,6 +12,16 @@
   height: 42rem;
   border-radius: 12px;
   position: relative;
+}
+
+.scard h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.8rem;
+}
+
+.scard p {
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .scard__footer {

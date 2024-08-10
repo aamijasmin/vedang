@@ -1,4 +1,38 @@
 .hero {
-  min-height: 57.3rem;
-  background-color: #a32e09;
+  /* border: 1px solid #20c20e; */
+  /* min-height: 57rem; */
+  position: relative;
+  /* min-height: 57.3rem; */
+  /* background-color: #a32e09; */
+}
+
+.hero__chakra {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  animation: 60s linear infinite spin;
+}
+
+.hero__portrait {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.hero__portrait img {
+  width: 48.5rem;
+}
+
+.hero__chakra img {
+  height: 57rem;
+  overflow: hidden;
+}
+
+@keyframes spin {
+  form {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
