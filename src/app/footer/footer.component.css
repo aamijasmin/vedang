@@ -1,0 +1,20 @@
+footer {
+  height: 20rem;
+  width: 112rem;
+  background-color: #660d00;
+  /* position: absolute; */
+  /* bottom: 0; */
+}
+
+p {
+  color: #fff9f8;
+}
+
+/* footer { */
+/*   height: 20rem; */
+/*   width: 112rem; */
+/*   background-color: #660d00; */
+/* margin-top: auto; */
+/*   position: absolute; */
+/*   bottom: 0; */
+/* } */
