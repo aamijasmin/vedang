@@ -1,15 +1,12 @@
 .hero {
-  /* border: 1px solid #20c20e; */
-  /* min-height: 57rem; */
   position: relative;
-  /* min-height: 57.3rem; */
-  /* background-color: #a32e09; */
+  z-index: 333;
 }
 
 .hero__chakra {
-  z-index: 1;
+  z-index: 222;
   position: absolute;
-  top: 0;
+  top: 10%;
   animation: 60s linear infinite spin;
 }
 
@@ -24,7 +21,8 @@
 }
 
 .hero__chakra img {
-  height: 57rem;
+  z-index: 111;
+  height: 47rem;
   overflow: hidden;
 }
 
